@@ -27,16 +27,17 @@ For starters we look at the base parameters age and sex which are easily easily 
 
 ### What do we need to answer these questions?
 For once we need a base understanding of the dataset. A good way for that is the use of
-a heatmap, which shows us the correlation between each feature.
-![grafik](https://user-images.githubusercontent.com/96918132/150194474-ac7ab83b-0714-47be-b6fc-94d49b45dfe4.png)
+a heatmap, which shows us the correlation between each feature.<br>
+![grafik](https://user-images.githubusercontent.com/96918132/150194474-ac7ab83b-0714-47be-b6fc-94d49b45dfe4.png)<br>
 The most interesting line for us is the last one. For my questions the features "Age, "Sex", "RestingBP", "MaxHR" and "ST_Slope" are of interest and
 most of them show relatively good Pearson correlation.
 
-![grafik](https://user-images.githubusercontent.com/96918132/150194503-1bea1001-8904-40e7-8a84-5e4729fe14a7.png)
-
+For the model I implemented the fitting model from [Jason Brownlee](https://machinelearningmastery.com/how-to-connect-model-input-data-with-predictions-for-machine-learning/), which uses logistic regression.
 
 ### Results
-The here used model showed an accuracy of 
+The here used model showed an accuracy of 69% with just the two inputs age and sex. This increased to 71%
+with the input from a possible smart watch and went up to 82% with the feature ST slope.<br>
+![grafik](https://user-images.githubusercontent.com/96918132/150199518-b6a36951-fc3a-46e7-b0cb-8ead919c35e4.png)
 
 
 To see more about this project, see the link to my Github [here]().
