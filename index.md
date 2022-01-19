@@ -17,7 +17,7 @@ It has 12 columns/features and one of them is the result of a heart disease or n
 Well what could be a business or real-world applications which is based on the probability of a heart disease? <br>
 Since health insurance companies can't deny you coverage or raise your rates based only on your health I had to think of something else.
 The next best thing that came to my mind then was the data a smart watch can record and which missing parameters could help it.
-For starters we look at the base parameters age and sex which are often asked at health apps.
+For starters we look at the base parameters age and sex which are easily easily acquired at health apps.
 1. What is the probability of a heart disease for men and women based on their age?
 
 2. Can the data from a smart watch (which records the heart ratio and the blood pressure) increase <br>the accuracy of the model from question 1?
@@ -26,6 +26,17 @@ For starters we look at the base parameters age and sex which are often asked at
 
 
 ### What do we need to answer these questions?
-For once we need a base understanding fo the dataset
+For once we need a base understanding of the dataset. A good way for that is the use of
+a heatmap, which shows us the correlation between each feature.
+![grafik](https://user-images.githubusercontent.com/96918132/150194474-ac7ab83b-0714-47be-b6fc-94d49b45dfe4.png)
+The most interesting line for us is the last one. For my questions the features "Age, "Sex", "RestingBP", "MaxHR" and "ST_Slope" are of interest and
+most of them show relatively good Pearson correlation.
+
+![grafik](https://user-images.githubusercontent.com/96918132/150194503-1bea1001-8904-40e7-8a84-5e4729fe14a7.png)
 
 
+### Results
+The here used model showed an accuracy of 
+
+
+To see more about this project, see the link to my Github [here]().
