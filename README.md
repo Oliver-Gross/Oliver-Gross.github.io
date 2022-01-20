@@ -20,7 +20,7 @@ As a first project for my Data Science Nanodegree at [Udacity](https://www.udaci
 It contains mostly medical data which can be used for a early detection of a heart disease.
 
 ## Description
-The used model can give you a predicition based on your input and used features and the accuracy of said prediction as well.
+The used model can give you a predicition based on your input and used features and gives you the accuracy of said prediction as well.
 
 ## Licensing, Authors, Acknowledgements
 Acknowledgements<br>
