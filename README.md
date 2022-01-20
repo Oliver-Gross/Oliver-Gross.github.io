@@ -26,6 +26,8 @@ As a input you need to define your Feature Matrix with the features you want to 
 X = df[["MaxHR", "Oldpeak"]]#Feature Matrix
 
 
-## Licensing, Authors, Acknowledgements
-Acknowledgements<br>
+## Authors, Acknowledgements
+
+Author: Oliver Groß
+
 Credits to Jason Brownlee for his [fitting model](https://machinelearningmastery.com/how-to-connect-model-input-data-with-predictions-for-machine-learning/)
