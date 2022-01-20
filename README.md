@@ -21,6 +21,10 @@ It contains mostly medical data which can be used for a early detection of a hea
 
 ## Description
 The used model can give you a predicition based on your input and used features and gives you the accuracy of said prediction as well.
+As a input you need to define your Feature Matrix with the features you want to use, e.g. 
+
+X = df[["MaxHR", "Oldpeak"]]#Feature Matrix
+
 
 ## Licensing, Authors, Acknowledgements
 Acknowledgements<br>
