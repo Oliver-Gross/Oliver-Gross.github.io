@@ -1,4 +1,5 @@
-# Udacity Data Scientist Nanodegree
+# Heart Disease Prediction 
+## Project for Udacity Data Scientist Nanodegree
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3b/Udacity_logo.png)
 
 ## Installations
@@ -16,10 +17,11 @@ import seaborn as sns
 [Seaborn](https://seaborn.pydata.org/) is used to visualize the correlation of our features.
 ## Motivation
 As a first project for my Data Science Nanodegree at [Udacity](https://www.udacity.com/school-of-data-science) I am asked to choose a data set and analyze, model and visualize it. For my project I chose a [Heart Failure Prediction Dataset](https://www.kaggle.com/fedesoriano/heart-failure-prediction). <br>
+It contains mostly medical data which can be used for a early detection of a heart disease.
 
-each feature is a possible indicator for a heart diesease
 ## Description
-## How to
+The used model can give you a predicition based on your input and used features and the accuracy of said prediction as well.
+
 ## Licensing, Authors, Acknowledgements
 Acknowledgements<br>
 Credits to Jason Brownlee for his [fitting model](https://machinelearningmastery.com/how-to-connect-model-input-data-with-predictions-for-machine-learning/)
