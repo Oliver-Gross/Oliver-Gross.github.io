@@ -1,6 +1,6 @@
 <img src=https://user-images.githubusercontent.com/96918132/150175572-2937f3d3-8ec7-41dd-ba50-8ec1edb71da3.png width="600" height="400"/>
 
-## First step to choose a dataset to get into the field
+## How to predict a Heartdisease
 
 As the first project for the nano degree as a data scientist at udacity I have been given the assignment to work on a dataset
 of my choice and pose a few questions which are related to business or real-world applications.<br>
